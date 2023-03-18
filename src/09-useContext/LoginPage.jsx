@@ -12,7 +12,7 @@ export const LoginPage = () => {
     return (
         <div>
             <h1>LoginPage</h1>
-            <pre>
+            <pre aria-label="pre">
                 { JSON.stringify( user ) }
             </pre>
 
