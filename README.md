@@ -13,3 +13,11 @@ __Hooks generales de react__
 - [x] useCallback
 - [x] useTodo  _(custom)_
 - [x] useReducer
+
+
+__Tests__
+
+- [x] useCounter
+- [x] useForm
+- [x] MultipleCustomHooks
+- [x] useReducer

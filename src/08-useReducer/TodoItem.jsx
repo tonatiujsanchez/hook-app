@@ -9,7 +9,7 @@ export const TodoItem = ({ todo, onRemoveTodo, onToggleTodo }) => {
             onClick={ ()=>onToggleTodo( todo.id ) }
             className="list-group-item d-flex justify-content-between align-items-center pointer"
         >
-            <span className={ todo.done ? 'text-decoration-line-through text-secondary' : '' }>
+            <span aria-label="span" className={ todo.done ? 'text-decoration-line-through text-secondary' : '' }>
                 { todo.description }
             </span>
             <button 
