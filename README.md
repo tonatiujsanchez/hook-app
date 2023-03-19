@@ -21,3 +21,8 @@ __Tests__
 - [x] useForm
 - [x] MultipleCustomHooks
 - [x] useReducer
+- [x] TodoItem
+- [x] TodoApp
+- [x] HomePage
+- [x] LoginPage
+- [x] MainApp(Routing)
