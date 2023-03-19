@@ -23,6 +23,7 @@ export const MultipleCustomHooks = () => {
                             <CardCharacter character={ data } id={ counter } />
                             <button 
                                 onClick={ ()=> increment() }
+                                disabled={ isLoading }
                                 className="btn btn-primary"
                             >
                                 Next character
